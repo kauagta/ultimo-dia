@@ -8,38 +8,96 @@
     <title>crie uma conta</title>
 </head>
 <body>
-<div>
-    <h1>
-        crie sua conta
-    </h1>
-</div>
-    <form action="p" method="post"> 
-        <label for="nome completo">nome:</label>
-        <input type="text" placeholder="nome completo" id="" name="">
+    
+    <form action="GET" method="post"> 
         
+        <div>
+            <h1>
+                Crie uma conta
+            </h1>
+        </div>
+        <br>
+        <label for="nome">nome:</label>
+        <input type="text" placeholder="nome" id="" name="">
+        <br>
         <label for="sobre nome:">sobre nome:
             <input type="text" id="sobre nome" placeholder="sobre nome" autofocus>
         </label>
-
+        <br>
         <label for="tel">telefone:</label>
             <input type="tel" placeholder="numero de telefone">
-        
+        <br>
         <label for="email">email:</label>
             <input type="email" placeholder="email" id="email">
-        
+        <br>
             <label for="password">crie sua senha:</label>
                 <input type="password" placeholder="sua senha" id="senha" name="senha">
-            
+            <br>
             <label for="password">cofirme sua senha:</label>
                 <input type="password" placeholder="sua senha" id="senha" name="senha">
             <form>
+        <br> 
+        <div>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
         
-        
-        
+        <br>
         <nav>
-            <a href="pagina1.html">voltar</a>
             <a href="pagina3.html">ENVIAR</a>
+            <br>
+            <a href="pagina1.html">voltar</a>
+            
         </nav>
+
+        <style>
+            body{
+                display: flex;
+                background-color:aquamarine ;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: large;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                border: solid white 4px;
+                border-radius: 10px;
+                margin-top: 20px;
+                color: aliceblue;
+                padding: 70px;   
+                background: linear-gradient(rgb(58, 150, 150), rgb(43, 43, 153), rgba(45, 36, 140, 0));
+                padding-bottom: 30px;
+            }
+            input{
+                display: flex;
+                font-size: 20px;
+
+            }
+            h1{
+                display: flex;
+                color: black;
+            }
+            a{
+                display: flex;
+                margin-left: 90px;
+                background-color: black;
+                color: aliceblue;
+                border: solid black 1px;
+                border-radius: 7px;
+                width: 70px;
+                padding: 7px;
+                text-decoration: none;
+                margin-top: -4px;
+                box-shadow: 3px 3px 3px;
+
+            }
+            
+        </style>
         
        
 </body>
