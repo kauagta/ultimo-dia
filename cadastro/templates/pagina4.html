@@ -1,0 +1,19 @@
+{% extends 'pagina2' %}
+
+<table class="container">
+    <tr>
+        <td>id</td>
+        <td>nome</td>
+        <td>sobre nome</td>
+        <td>telefone</td>
+        <td>email</td>
+    </tr>
+    {% for Usuario in usuario %}
+    <tr>
+        <th>{{usuario.nome}}</th>
+        <th>{{usuario.sobre nome}}</th>
+        <th>{{usuario.telefone}}</th>
+        <th>{{usuario.email}}</th>
+    </tr>
+    {% endfor %}
+</table>
